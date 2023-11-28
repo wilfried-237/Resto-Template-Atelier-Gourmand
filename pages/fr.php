@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Atelier Gourmand - Restaurant</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-
-    <!-- Favicons -->
-    <link href="assets/img/favicon-32x32.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: Atelier Gourmand
-  * Updated: Sep 20 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/Atelier Gourmand-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
 <body>
 
     <!-- ======= Top Bar ======= -->
@@ -49,10 +10,10 @@
                 <i class="bi bi bi-geo d-flex align-items-center ms-4"><span> Akwa, Douala, Cameroon</span></i>
             </div>
 
-            <div class="languages d-none d-md-flex d-sm-flex align-items-center">
+            <div class="languages d-md-flex d-sm-flex align-items-center">
                 <ul>
-                    <li>En</li>
-                    <li><a href="#">Fr</a></li>
+                    <li><a href="index.php?lang=fr" class="text-warning">Fr</a></li>
+                    <li><a href="index.php?lang=en">En</a></li>
                 </ul>
             </div>
         </div>
@@ -68,7 +29,7 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Accueille</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
                     <li><a class="nav-link scrollto" href="#about">À propos</a></li>
                     <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
                     <li><a class="nav-link scrollto" href="#events">Événements</a></li>
@@ -111,7 +72,7 @@
         <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
             <div class="row">
                 <div class="col-lg-8">
-                    <h1>Bienvenue à<br><span>Atelier Gourmand</span></h1>
+                    <h1>Bienvenue à<br><span>ATELIER GOURMAND</span></h1>
                     <h2><em>"Des chefs-d'œuvre culinaires, servis avec le sourire."</em></h2>
 
                     <div class="btns">
@@ -371,7 +332,8 @@
                             <div class="tab-pane" id="tab-3">
                                 <div class="row">
                                     <div class="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Le bol de soupe sur l'image est un plat copieux et savoureux, rempli d'une variété d'ingrédients qui s'assemblent pour créer un repas satisfaisant. La soupe est préparée avec un bouillon riche, qui constitue une base savoureuse et réconfortante pour le plat. Les nouilles, qui sont un aliment de base dans de nombreuses cuisines asiatiques, ajoutent une texture moelleuse et nourrissante à la soupe.</p>
+                                        <h3>Composé de nouille, legumes et viande</h3>
+                                        <p class="fst-italic">un plat copieux et savoureux, rempli d'une variété d'ingrédients qui s'assemblent pour créer un repas satisfaisant. La soupe est préparée avec un bouillon riche, qui constitue une base savoureuse et réconfortante pour le plat. Les nouilles, qui sont un aliment de base dans de nombreuses cuisines asiatiques, ajoutent une texture moelleuse et nourrissante à la soupe.</p>
                                             <p class="fst-italic">En plus des nouilles, la soupe est également remplie d'une variété de légumes, qui ajoutent de la couleur, de la texture et de la valeur nutritionnelle au plat. Enfin, la soupe contient également de la viande, ce qui ajoute une saveur savoureuse et copieuse au plat. Dans l’ensemble, le bol de soupe est un repas délicieux et satisfaisant, à la fois réconfortant et savoureux.</p>
                                     </div>
                                     <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -384,7 +346,7 @@
                                     <div class="col-lg-8 details order-2 order-lg-1">
                                         <h3>pizza garnie d'une variété d'ingrédients, notamment des tomates, du fromage et des chips.</h3>
                                         <p class="fst-italic"> Les tomates sont dispersées sur la pizza, ajoutant une touche de couleur et de fraîcheur au plat. Le fromage est probablement fondu et gluant, offrant une texture riche et crémeuse. Les chips, qui peuvent être des chips de pomme de terre ou un autre type de collation croustillante, ajoutent un élément croquant à la pizza, rehaussant la texture et la saveur globales.</p>
-                                        <p>La combinaison de ces ingrédients crée un repas visuellement attrayant et délicieux, à la fois satisfaisant et agréable.</p>
+                                        <p class="fst-italic">La combinaison de ces ingrédients crée un repas visuellement attrayant et délicieux, à la fois satisfaisant et agréable.</p>
                                     </div>
                                     <div class="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-4.png" alt="" class="img-fluid">
@@ -433,7 +395,7 @@
                                         <p><span>200,000 FCFA</span></p>
                                     </div>
                                     <p class="fst-italic">
-                                    Notre restaurant est l'endroit idéal pour organiser vos anniversaires et événements. Nous comprenons cela
+                                        Notre restaurant est l'endroit idéal pour organiser vos anniversaires et événements. Nous comprenons cela
                                         chaque anniversaire est unique et nous nous engageons à rendre le vôtre spécial. Notre événement expérimenté
                                         les coordinateurs travailleront avec vous pour créer un menu et un plan personnalisés qui répondent à vos besoins spécifiques.
                                         Nous proposons une variété d'options de menu, notamment des plats à l'assiette, des buffets et des repas de style familial, afin que vous
@@ -441,7 +403,7 @@
                                         disponible, qui peut être personnalisé pour s'adapter au thème de votre événement.</p>
 
                                     <p>
-                                    Nous proposons une variété d'options de menu, notamment des plats à l'assiette, des buffets et des repas de style familial, afin que vous
+                                        Nous proposons une variété d'options de menu, notamment des plats à l'assiette, des buffets et des repas de style familial, afin que vous
                                         pouvons choisir l'option qui convient le mieux à votre événement. Nous disposons d'une gamme de salles à manger privées,
                                         qui peut accueillir des groupes de toute taille. Notre équipe s'occupera de tous les détails afin que vous puissiez vous concentrer sur
                                         profiter de votre événement.
@@ -461,7 +423,7 @@
                                         <p><span>300,000 FCFA</span></p>
                                     </div>
                                     <p class="fst-italic">
-                                    Notre restaurant est le lieu idéal pour les fêtes et événements privés. Nous disposons d'une équipe expérimentée
+                                        Notre restaurant est le lieu idéal pour les fêtes et événements privés. Nous disposons d'une équipe expérimentée
                                         des coordonnateurs d'événements qui travailleront avec vous pour créer un menu et un plan personnalisés qui correspondent à votre
                                         besoins spécifiques. Nous disposons d'une gamme de salles à manger privées, qui peuvent être personnalisées pour s'adapter
                                         le thème de votre événement. Nous proposons une variété d'options de menu, notamment des plats à l'assiette,
@@ -469,7 +431,7 @@
                                     </p>
 
                                     <p>
-                                    accueillir des groupes de toute taille.
+                                        accueillir des groupes de toute taille.
                                         Notre équipe s'occupera de tous les détails afin que vous puissiez vous concentrer sur
                                         profiter de votre événement.
                                         notre restaurant est l'endroit idéal pour accueillir vos soirées et événements privés. Nous avons l'expérience
@@ -491,14 +453,14 @@
                                         <p><span>500,000 FCFA</span></p>
                                     </div>
                                     <p class="fst-italic">
-                                    Notre restaurant est spécialisé dans la création d'expériences uniques et mémorables pour nos clients. Nous proposons un
+                                        Notre restaurant est spécialisé dans la création d'expériences uniques et mémorables pour nos clients. Nous proposons un
                                         une large gamme de services, notamment la restauration, la planification d'événements et la gestion de lieux. Avec succès
                                         organiser un événement d'entreprise de grande envergure pour un
                                         grande entreprise technologique, qui comprenait la gestion de la restauration pour plus de 500 invités et la coordination avec
                                         plusieurs fournisseurs pour garantir une expérience événementielle transparente.
                                     </p>
                                     <p>
-                                    Planification et exécution d'une réception de mariage pour un
+                                        Planification et exécution d'une réception de mariage pour un
                                         client de haut niveau, qui comprenait la conception de l'espace événementiel, la gestion de la liste des invités et
                                         superviser le service de restauration et de boissons. Organiser une collecte de fonds caritative pour une association locale à but non lucratif
                                         organisation, qui comprenait la recherche d'un conférencier de haut niveau, la gestion des parrainages et
@@ -970,21 +932,3 @@
             </div>
         </div>
     </footer><!-- End Footer -->
-
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>

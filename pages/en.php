@@ -1,44 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Atelier Gourmand - Restaurant</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon-32x32.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Atelier Gourmand
-  * Updated: Sep 20 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/Atelier Gourmand-restaurant-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
 <body>
 
   <!-- ======= Top Bar ======= -->
@@ -51,10 +10,10 @@
         <i class="bi bi bi-geo d-flex align-items-center ms-4"><span> Akwa, Douala, Cameroon</span></i>
       </div>
 
-      <div class="languages d-none d-md-flex d-sm-flex align-items-center">
+      <div class="languages d-md-flex d-sm-flex align-items-center">
         <ul>
-          <li>En</li>
-          <li><a href="#">Fr</a></li>
+          <li><a href="index.php?lang=fr">Fr</a></li>
+          <li><a href="index.php?lang=en" class="text-warning">En</a></li>
         </ul>
       </div>
     </div>
@@ -121,8 +80,7 @@
             <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
           </div>
         </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
-          data-aos-delay="200">
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
           <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
         </div>
 
@@ -240,7 +198,7 @@
           <div class="col-lg-6 menu-item filter-starters">
             <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
+              <a href="#">Lobster Bisque</a><span>3,000 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A rich and creamy bisque made with fresh lobster meat and a touch of herbs and spices.
@@ -250,7 +208,7 @@
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
+              <a href="#">Bread Barrel</a><span>3,500 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A warm, freshly baked bread barrel filled with a variety of breads and dips, perfect for sharing with
@@ -260,7 +218,7 @@
           <div class="col-lg-6 menu-item filter-starters">
             <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
+              <a href="#">Crab Cake</a><span>4,000 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A delicious crab cake made with fresh crab meat, breadcrumbs, and a touch of seasoning, served with a
@@ -270,7 +228,7 @@
           <div class="col-lg-6 menu-item filter-salads">
             <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
+              <a href="#">Caesar Selections</a><span>4,500 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A classic Caesar salad with crisp romaine lettuce, croutons, Parmesan cheese, and our house-made Caesar
@@ -280,7 +238,7 @@
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              <a href="#">Tuscan Grilled</a><span>5,000 FCFA</span>
             </div>
             <div class="menu-ingredients">
               Grilled chicken with provolone, artichoke hearts, and roasted red pesto
@@ -290,7 +248,7 @@
           <div class="col-lg-6 menu-item filter-starters">
             <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+              <a href="#">Mozzarella Stick</a><span>2,500 FCFA</span>
             </div>
             <div class="menu-ingredients">
               Crispy, golden-brown mozzarella sticks served with marinara sauce for dipping. </div>
@@ -299,7 +257,7 @@
           <div class="col-lg-6 menu-item filter-salads">
             <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
+              <a href="#">Greek Salad</a><span>5,000 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A refreshing Greek salad with crisp mixed greens, cucumbers, red onion, feta cheese, Kalamata olives, and
@@ -311,7 +269,7 @@
           <div class="col-lg-6 menu-item filter-salads">
             <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
+              <a href="#">Spinach Salad</a><span>5,000 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A healthy and delicious spinach salad with fresh spinach, crumbled feta cheese, red onion, and a tangy
@@ -321,7 +279,7 @@
           <div class="col-lg-6 menu-item filter-specialty">
             <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
+              <a href="#">Lobster Roll</a><span>6,500 FCFA</span>
             </div>
             <div class="menu-ingredients">
               A delicious lobster roll made with fresh lobster meat, served on a toasted bun with mayonnaise and a side
@@ -476,7 +434,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Birthday Parties</h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p><span>200,000 FCFA</span></p>
                   </div>
                   <p class="fst-italic">
                     Our restaurant is the perfect place to host your birthday parties and events. We understand that
@@ -505,7 +463,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Private Parties</h3>
                   <div class="price">
-                    <p><span>$290</span></p>
+                    <p><span>300,000 FCFA</span></p>
                   </div>
                   <p class="fst-italic">
                     Our restaurant is the perfect venue for private parties and events. We have a team of experienced
@@ -536,7 +494,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Parties</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>500,000 FCFA</span></p>
                   </div>
                   <p class="fst-italic">
                     Our restaurant is specialized in creating unique and memorable experiences our clients. We offer a
@@ -572,37 +530,30 @@
           <p>Book a Table</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
-          data-aos-delay="100">
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
-                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people"
-                data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
               <div class="validate"></div>
             </div>
           </div>
@@ -611,7 +562,7 @@
             <div class="validate"></div>
           </div>
           <div class="mb-3">
-            <div class="loading">Loading</div>
+            <div class="loading">Loading...</div>
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your
               reservation. Thank you!</div>
@@ -875,10 +826,7 @@
       </div>
 
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31838.70197403078!2d9.680352174184488!3d4.0534926976301415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061125fd8ac86e9%3A0x8c209e5fc42dae26!2sAkwa%20I%2C%20Douala!5e0!3m2!1sen!2scm!4v1701074209554!5m2!1sen!2scm"
-
-          frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31838.70197403078!2d9.680352174184488!3d4.0534926976301415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061125fd8ac86e9%3A0x8c209e5fc42dae26!2sAkwa%20I%2C%20Douala!5e0!3m2!1sen!2scm!4v1701074209554!5m2!1sen!2scm" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="container" data-aos="fade-up">
@@ -895,7 +843,7 @@
 
               <div class="open-hours">
                 <i class="bi bi-clock"></i>
-                <h4>Open Hours:</h4>
+                <h4>Open Hours</h4>
                 <p>
                   Monday-Saturday:<br>
                   11:00 AM - 11:00 PM
@@ -936,7 +884,7 @@
                 <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Loading...</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
@@ -1028,22 +976,3 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>

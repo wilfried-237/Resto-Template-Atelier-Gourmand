@@ -1,5 +1,7 @@
 <?php
 
+include ("forms/contact.php");
+
 $pages=scandir('pages/');
     //si $_GET['page']) existe et son contenu n'est pas vide
   if(isset($_GET['lang']) && (!empty($_GET['lang']))){
@@ -78,7 +80,7 @@ $pages=scandir('pages/');
 
 
 
-  <div id="preloader"></div>
+    <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
@@ -91,6 +93,7 @@ $pages=scandir('pages/');
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/jquery.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>

@@ -567,7 +567,7 @@
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your
               reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          <div class="text-center"><button type="submit" name="action" value="book">Book a Table</button></div>
         </form>
 
       </div>
@@ -888,7 +888,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="action" value="send_message">Send Message</button></div>
             </form>
 
           </div>

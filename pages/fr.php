@@ -523,7 +523,7 @@
                         <div class="sent-message">Votre demande de réservation a été envoyée. Nous vous rappellerons ou enverrons un e-mail pour confirmer votre
                             réservation. Merci!</div>
                     </div>
-                    <div class="text-center"><button type="submit">Reserver</button></div>
+                    <div class="text-center"><button type="submit" name="action" value="book">Reserver</button></div>
                 </form>
 
             </div>
@@ -844,7 +844,7 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Votre message a été envoyé. Merci!</div>
                             </div>
-                            <div class="text-center"><button type="submit">Envoyer</button></div>
+                            <div class="text-center"><button type="submit" name="action" value="send_message">Envoyer</button></div>
                         </form>
 
                     </div>

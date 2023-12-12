@@ -1,16 +1,16 @@
 <body>
 
     <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div id="topbar" class="fixed-top pt-2">
         <div class="container d-flex justify-content-center justify-content-md-between">
 
-            <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-phone d-flex align-items-center"><span>+237 699 543 424</span></i>
-                <i class="bi bi-clock d-flex align-items-center ms-4"><span> Lun-Sam: 11H00 - 23:00H</span></i>
-                <i class="bi bi bi-geo d-flex align-items-center ms-4"><span> Akwa, Douala, Cameroon</span></i>
+            <div class="contact-info d-flex">
+                <i class="bi bi-phone d-sm-flex align-items-center sm-5 md-4"><span>+237 699 543 424</span></i>
+                <i class="bi bi-clock d-none d-md-flex align-items-center md-4 ms-4"><span> Lun-Sam: 11H00 - 23:00H</span></i>
+                <i class="bi bi bi-geo d-none d-md-flex align-items-center sm-5 md-4 ms-4" ><span> Akwa, Douala, Cameroon</span></i>
             </div>
 
-            <div class="languages d-md-flex d-sm-flex align-items-center">
+            <div class="languages d-sm-flex align-items-center sm-2 ms-4">
                 <ul>
                     <li><a href="index.php?lang=fr" class="text-warning">Fr</a></li>
                     <li><a href="index.php?lang=en">En</a></li>
@@ -76,8 +76,8 @@
                     <h2><em>"Des chefs-d'œuvre culinaires, servis avec le sourire."</em></h2>
 
                     <div class="btns">
-                        <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
-                        <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+                        <a href="#menu" class="btn-menu animated fadeInUp scrollto">Notre Menu</a>
+                        <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Reserver</a>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">

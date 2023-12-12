@@ -1,23 +1,23 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
-    <div class="container d-flex justify-content-center justify-content-md-between">
+  <div id="topbar" class="fixed-top pt-2">
+        <div class="container d-flex justify-content-center justify-content-md-between">
 
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+237 699 543 424</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 11:00PM</span></i>
-        <i class="bi bi bi-geo d-flex align-items-center ms-4"><span> Akwa, Douala, Cameroon</span></i>
-      </div>
+            <div class="contact-info d-flex">
+                <i class="bi bi-phone d-sm-flex align-items-center sm-5 md-4"><span>+237 699 543 424</span></i>
+                <i class="bi bi-clock d-none d-md-flex align-items-center md-4 ms-4"><span> Mon-Sat: 11H00 - 23:00H</span></i>
+                <i class="bi bi bi-geo d-none d-md-flex align-items-center sm-5 md-4 ms-4" ><span> Akwa, Douala, Cameroon</span></i>
+            </div>
 
-      <div class="languages d-md-flex d-sm-flex align-items-center">
-        <ul>
-          <li><a href="index.php?lang=fr">Fr</a></li>
-          <li><a href="index.php?lang=en" class="text-warning">En</a></li>
-        </ul>
-      </div>
+            <div class="languages d-sm-flex align-items-center sm-2 ms-4">
+                <ul>
+                    <li><a href="index.php?lang=fr">Fr</a></li>
+                    <li><a href="index.php?lang=en" class="text-warning">En</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
